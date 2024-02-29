@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS notate_db;
+CREATE DATABASE notate_db;
