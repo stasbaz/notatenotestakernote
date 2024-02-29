@@ -30,7 +30,7 @@ app.get("/notes", (req, res) => {
 app.get("/api/notes", async (req, res) => {
 try{
     const NotateData = await Note.findAll()
-    res.status(200).json(NotateData);
+    res.status(200).json(NotateData)
 }catch (err){
     res.status(500).json(err);
 }
