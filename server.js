@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 80;
 const fs = require('fs')
 const app = express();
 const sequelize = require("./config/connection")
-const Note = require('../Develop/models/Note')
+const Note = require('./models/Note')
 
 
 // Middleware for parsing JSON and urlencoded form data
